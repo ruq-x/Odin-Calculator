@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">CALCULATOR</h1>
+    </div>
+    <div class="mid">
+        <div class="calcu-con">
+            <div class="screen">
+                <div class="display">
+                    <div class="history" id="expr">0</div>
+                    <div class="answer" id="ans"></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="sixth-lvl floor">
+                    <button class="del ⌫" id="delete">⌫</button>
+                </div>
+                <div class="fifth-lvl floor">
+                    <button class="clear C c" id="clear">C</button>
+                    <button class="btn ope ^" id="power">^</button>
+                    <button class="btn ope %" id="modulo">%</button>
+                    <button class="btn ope ÷ /" id="divide">÷</button>
+                </div>
+                <div class="fourth-lvl floor">
+                    <button class="btn num 7" id="7">7</button>
+                    <button class="btn num 8" id="8">8</button>
+                    <button class="btn num 9" id="9">9</button>
+                    <button class="btn ope × *" id="multiply">×</button>
+                </div>
+                <div class="third-lvl floor">
+                    <button class="btn num 4" id="4">4</button>
+                    <button class="btn num 5" id="5">5</button>
+                    <button class="btn num 6" id="6">6</button>
+                    <button class="btn ope -" id="minus">-</button>
+                </div>
+                <div class="second-lvl floor">
+                    <button class="btn num 1" id="1">1</button>
+                    <button class="btn num 2" id="2">2</button>
+                    <button class="btn num 3" id="3">3</button>
+                    <button class="btn ope +" id="add">+</button>
+                </div>
+                <div class="first-lvl floor">
+                    <button class="btn1" id=""></button>
+                    <button class="btn num 8" id="0">0</button>
+                    <button class="btn ope ." id="dot">.</button>
+                    <button class="calc =" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+		<p>Maxx Abuan &copy; 2024 | <a href="#">Source Code</a></p>
+	</footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
